@@ -4,4 +4,4 @@ helloworld = Flask(__name__)
 def run():
     return "{\"message\":\"Hello World Python by Kaushal Singh\"}"
 if __name__ == "__main__":
-    helloworld.run(host="0.0.0.0", port=int("6000"), debug=True)
+    helloworld.run(host="0.0.0.0", port=int("8080"), debug=True)
